@@ -1,0 +1,37 @@
+@media screen and (max-width: 1440px) {
+  body {
+    width: auto;
+  }
+}
+@media screen and (max-width: 670px) {
+  .card {
+    flex-direction: column;
+  }
+  img {
+    border-radius: 10px 10px 0 0;
+    width: 304px;
+  }
+  .image {
+    margin: 0;
+    padding: 0;
+    height: 300.8px;
+  }
+  .text {
+    border-radius: 0 0 10px 10px;
+  }
+  .container {
+    height: 100%;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-height: 833px) and (max-width: 670px) {
+  .container {
+    margin: 10px;
+  }
+  .text {
+    height: 48vh;
+  }
+  .card {
+    margin-bottom: 150px;
+  }
+}
