@@ -17,6 +17,13 @@ body {
   margin: auto;
   background-color: hsl(30, 38%, 92%);
 }
+picture {
+  display: block;
+  height: 212.7px;
+}
+svg {
+  margin-right: 7px;
+}
 p {
   font-size: 14px;
   font-family: "Montserrat", sans-serif;

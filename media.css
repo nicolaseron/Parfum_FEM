@@ -11,11 +11,6 @@
     border-radius: 10px 10px 0 0;
     width: 304px;
   }
-  .image {
-    margin: 0;
-    padding: 0;
-    height: 300.8px;
-  }
   .text {
     border-radius: 0 0 10px 10px;
   }
@@ -24,7 +19,7 @@
     margin-top: 50px;
   }
 }
-@media screen and (max-height: 833px) and (max-width: 670px) {
+@media screen and (max-height: 743px) and (max-width: 670px) {
   .container {
     margin: 10px;
   }
